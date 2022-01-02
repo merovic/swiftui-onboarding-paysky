@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D26E8E524B30CD00013AC43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8E424B30CD00013AC43 /* AppDelegate.swift */; };
+		0D26E8E724B30CD00013AC43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8E624B30CD00013AC43 /* SceneDelegate.swift */; };
+		0D26E8E924B30CD00013AC43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8E824B30CD00013AC43 /* ContentView.swift */; };
+		0D26E8EB24B30CD40013AC43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D26E8EA24B30CD40013AC43 /* Assets.xcassets */; };
+		0D26E8EE24B30CD40013AC43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D26E8ED24B30CD40013AC43 /* Preview Assets.xcassets */; };
+		0D26E8F124B30CD40013AC43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D26E8EF24B30CD40013AC43 /* LaunchScreen.storyboard */; };
+		0D26E8FA24B30D370013AC43 /* OnboardingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8F924B30D370013AC43 /* OnboardingDataModel.swift */; };
+		0D26E8FC24B30DA90013AC43 /* OnboardingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8FB24B30DA90013AC43 /* OnboardingStepView.swift */; };
+		0D26E8FE24B30E340013AC43 /* OnboardingViewPure.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D26E8FD24B30E340013AC43 /* OnboardingViewPure.swift */; };
+		846AE8D527661D140095D5E6 /* NickNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846AE8D427661D140095D5E6 /* NickNameView.swift */; };
+		847AAD37275DFC68005098F1 /* PopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AAD36275DFC68005098F1 /* PopUp.swift */; };
+		847AAD39275E089B005098F1 /* ErrorPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AAD38275E089B005098F1 /* ErrorPopUp.swift */; };
+		A4AA586A276F778800CC25F8 /* VoucherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA5869276F778800CC25F8 /* VoucherItem.swift */; };
+		A4AA586E27706A0300CC25F8 /* LoadMoneyConfirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA586D27706A0300CC25F8 /* LoadMoneyConfirmation.swift */; };
+		A4AA58752771B73700CC25F8 /* ZamalekScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58742771B73700CC25F8 /* ZamalekScreen1.swift */; };
+		A4AA587D2771C8BC00CC25F8 /* SliderItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA587C2771C8BC00CC25F8 /* SliderItem.swift */; };
+		A4AA587F2771CC9000CC25F8 /* ZamalekScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA587E2771CC8F00CC25F8 /* ZamalekScreen2.swift */; };
+		A4AA58812771CD1C00CC25F8 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58802771CD1C00CC25F8 /* ListItem.swift */; };
+		A4AA58832771D31D00CC25F8 /* ZamalekScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58822771D31D00CC25F8 /* ZamalekScreen3.swift */; };
+		A4AA58852771D79F00CC25F8 /* ZamalekScreen4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58842771D79F00CC25F8 /* ZamalekScreen4.swift */; };
+		A4AA58882771DC0D00CC25F8 /* ENPOScreen1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58872771DC0D00CC25F8 /* ENPOScreen1.swift */; };
+		A4AA588A2771E4CE00CC25F8 /* ENPOScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58892771E4CE00CC25F8 /* ENPOScreen2.swift */; };
+		A4AA588C2771ED2300CC25F8 /* OffersTitleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA588B2771ED2300CC25F8 /* OffersTitleItem.swift */; };
+		A4AA588E2771FCD200CC25F8 /* ENPOScreen3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA588D2771FCD200CC25F8 /* ENPOScreen3.swift */; };
+		A4AA58A82774510700CC25F8 /* NewMainPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA58A72774510600CC25F8 /* NewMainPopUp.swift */; };
+		A4C13698277D8B7500A4F853 /* InsurancePage1.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C13697277D8B7500A4F853 /* InsurancePage1.swift */; };
+		A4C1369A277D992100A4F853 /* InsurancePage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C13699277D992100A4F853 /* InsurancePage2.swift */; };
+		A4C1369C277D9C3700A4F853 /* InsurancePage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1369B277D9C3700A4F853 /* InsurancePage3.swift */; };
+		A4C1369E277DB73200A4F853 /* InsurancePage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1369D277DB73200A4F853 /* InsurancePage4.swift */; };
+		A4C136A0277DC35A00A4F853 /* InsurancePage5.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C1369F277DC35900A4F853 /* InsurancePage5.swift */; };
+		A4C136A2277DC84B00A4F853 /* InsurancePage6.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C136A1277DC84B00A4F853 /* InsurancePage6.swift */; };
+		A4C136A4277DD0FD00A4F853 /* InsurancePage7.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C136A3277DD0FD00A4F853 /* InsurancePage7.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D26E8E124B30CD00013AC43 /* Onboarding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onboarding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D26E8E424B30CD00013AC43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D26E8E624B30CD00013AC43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0D26E8E824B30CD00013AC43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D26E8EA24B30CD40013AC43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D26E8ED24B30CD40013AC43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D26E8F024B30CD40013AC43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D26E8F224B30CD40013AC43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D26E8F924B30D370013AC43 /* OnboardingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingDataModel.swift; sourceTree = "<group>"; };
+		0D26E8FB24B30DA90013AC43 /* OnboardingStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStepView.swift; sourceTree = "<group>"; };
+		0D26E8FD24B30E340013AC43 /* OnboardingViewPure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewPure.swift; sourceTree = "<group>"; };
+		846AE8D427661D140095D5E6 /* NickNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NickNameView.swift; sourceTree = "<group>"; };
+		847AAD36275DFC68005098F1 /* PopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUp.swift; sourceTree = "<group>"; };
+		847AAD38275E089B005098F1 /* ErrorPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorPopUp.swift; sourceTree = "<group>"; };
+		A4AA5869276F778800CC25F8 /* VoucherItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherItem.swift; sourceTree = "<group>"; };
+		A4AA586D27706A0300CC25F8 /* LoadMoneyConfirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoneyConfirmation.swift; sourceTree = "<group>"; };
+		A4AA58742771B73700CC25F8 /* ZamalekScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamalekScreen1.swift; sourceTree = "<group>"; };
+		A4AA587C2771C8BC00CC25F8 /* SliderItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderItem.swift; sourceTree = "<group>"; };
+		A4AA587E2771CC8F00CC25F8 /* ZamalekScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamalekScreen2.swift; sourceTree = "<group>"; };
+		A4AA58802771CD1C00CC25F8 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
+		A4AA58822771D31D00CC25F8 /* ZamalekScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamalekScreen3.swift; sourceTree = "<group>"; };
+		A4AA58842771D79F00CC25F8 /* ZamalekScreen4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZamalekScreen4.swift; sourceTree = "<group>"; };
+		A4AA58872771DC0D00CC25F8 /* ENPOScreen1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENPOScreen1.swift; sourceTree = "<group>"; };
+		A4AA58892771E4CE00CC25F8 /* ENPOScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENPOScreen2.swift; sourceTree = "<group>"; };
+		A4AA588B2771ED2300CC25F8 /* OffersTitleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersTitleItem.swift; sourceTree = "<group>"; };
+		A4AA588D2771FCD200CC25F8 /* ENPOScreen3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ENPOScreen3.swift; sourceTree = "<group>"; };
+		A4AA58A72774510600CC25F8 /* NewMainPopUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMainPopUp.swift; sourceTree = "<group>"; };
+		A4C13697277D8B7500A4F853 /* InsurancePage1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage1.swift; sourceTree = "<group>"; };
+		A4C13699277D992100A4F853 /* InsurancePage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage2.swift; sourceTree = "<group>"; };
+		A4C1369B277D9C3700A4F853 /* InsurancePage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage3.swift; sourceTree = "<group>"; };
+		A4C1369D277DB73200A4F853 /* InsurancePage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage4.swift; sourceTree = "<group>"; };
+		A4C1369F277DC35900A4F853 /* InsurancePage5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage5.swift; sourceTree = "<group>"; };
+		A4C136A1277DC84B00A4F853 /* InsurancePage6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage6.swift; sourceTree = "<group>"; };
+		A4C136A3277DD0FD00A4F853 /* InsurancePage7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsurancePage7.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D26E8DE24B30CD00013AC43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D26E8D824B30CD00013AC43 = {
+			isa = PBXGroup;
+			children = (
+				0D26E8E324B30CD00013AC43 /* Onboarding */,
+				0D26E8E224B30CD00013AC43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D26E8E224B30CD00013AC43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D26E8E124B30CD00013AC43 /* Onboarding.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D26E8E324B30CD00013AC43 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				A4C13696277D8AD500A4F853 /* Insurance */,
+				A4AA58862771DBE100CC25F8 /* ENPO */,
+				A4AA58732771B71B00CC25F8 /* Zamalek */,
+				0D26E8F924B30D370013AC43 /* OnboardingDataModel.swift */,
+				0D26E8FB24B30DA90013AC43 /* OnboardingStepView.swift */,
+				0D26E8FD24B30E340013AC43 /* OnboardingViewPure.swift */,
+				0D26E8E424B30CD00013AC43 /* AppDelegate.swift */,
+				0D26E8E624B30CD00013AC43 /* SceneDelegate.swift */,
+				0D26E8E824B30CD00013AC43 /* ContentView.swift */,
+				0D26E8EA24B30CD40013AC43 /* Assets.xcassets */,
+				0D26E8EF24B30CD40013AC43 /* LaunchScreen.storyboard */,
+				0D26E8F224B30CD40013AC43 /* Info.plist */,
+				0D26E8EC24B30CD40013AC43 /* Preview Content */,
+				847AAD36275DFC68005098F1 /* PopUp.swift */,
+				847AAD38275E089B005098F1 /* ErrorPopUp.swift */,
+				846AE8D427661D140095D5E6 /* NickNameView.swift */,
+				A4AA5869276F778800CC25F8 /* VoucherItem.swift */,
+				A4AA586D27706A0300CC25F8 /* LoadMoneyConfirmation.swift */,
+				A4AA58A72774510600CC25F8 /* NewMainPopUp.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		0D26E8EC24B30CD40013AC43 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D26E8ED24B30CD40013AC43 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A4AA58732771B71B00CC25F8 /* Zamalek */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA58742771B73700CC25F8 /* ZamalekScreen1.swift */,
+				A4AA587E2771CC8F00CC25F8 /* ZamalekScreen2.swift */,
+				A4AA58822771D31D00CC25F8 /* ZamalekScreen3.swift */,
+				A4AA58842771D79F00CC25F8 /* ZamalekScreen4.swift */,
+				A4AA587C2771C8BC00CC25F8 /* SliderItem.swift */,
+				A4AA58802771CD1C00CC25F8 /* ListItem.swift */,
+			);
+			path = Zamalek;
+			sourceTree = "<group>";
+		};
+		A4AA58862771DBE100CC25F8 /* ENPO */ = {
+			isa = PBXGroup;
+			children = (
+				A4AA58872771DC0D00CC25F8 /* ENPOScreen1.swift */,
+				A4AA58892771E4CE00CC25F8 /* ENPOScreen2.swift */,
+				A4AA588D2771FCD200CC25F8 /* ENPOScreen3.swift */,
+				A4AA588B2771ED2300CC25F8 /* OffersTitleItem.swift */,
+			);
+			path = ENPO;
+			sourceTree = "<group>";
+		};
+		A4C13696277D8AD500A4F853 /* Insurance */ = {
+			isa = PBXGroup;
+			children = (
+				A4C13697277D8B7500A4F853 /* InsurancePage1.swift */,
+				A4C13699277D992100A4F853 /* InsurancePage2.swift */,
+				A4C1369B277D9C3700A4F853 /* InsurancePage3.swift */,
+				A4C1369D277DB73200A4F853 /* InsurancePage4.swift */,
+				A4C1369F277DC35900A4F853 /* InsurancePage5.swift */,
+				A4C136A1277DC84B00A4F853 /* InsurancePage6.swift */,
+				A4C136A3277DD0FD00A4F853 /* InsurancePage7.swift */,
+			);
+			path = Insurance;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D26E8E024B30CD00013AC43 /* Onboarding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D26E8F524B30CD40013AC43 /* Build configuration list for PBXNativeTarget "Onboarding" */;
+			buildPhases = (
+				0D26E8DD24B30CD00013AC43 /* Sources */,
+				0D26E8DE24B30CD00013AC43 /* Frameworks */,
+				0D26E8DF24B30CD00013AC43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onboarding;
+			productName = Onboarding;
+			productReference = 0D26E8E124B30CD00013AC43 /* Onboarding.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D26E8D924B30CD00013AC43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Augustinas Malinauskas";
+				TargetAttributes = {
+					0D26E8E024B30CD00013AC43 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 0D26E8DC24B30CD00013AC43 /* Build configuration list for PBXProject "Onboarding" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D26E8D824B30CD00013AC43;
+			productRefGroup = 0D26E8E224B30CD00013AC43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D26E8E024B30CD00013AC43 /* Onboarding */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D26E8DF24B30CD00013AC43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D26E8F124B30CD40013AC43 /* LaunchScreen.storyboard in Resources */,
+				0D26E8EE24B30CD40013AC43 /* Preview Assets.xcassets in Resources */,
+				0D26E8EB24B30CD40013AC43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D26E8DD24B30CD00013AC43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4AA58812771CD1C00CC25F8 /* ListItem.swift in Sources */,
+				A4C136A0277DC35A00A4F853 /* InsurancePage5.swift in Sources */,
+				846AE8D527661D140095D5E6 /* NickNameView.swift in Sources */,
+				A4C1369E277DB73200A4F853 /* InsurancePage4.swift in Sources */,
+				A4AA58752771B73700CC25F8 /* ZamalekScreen1.swift in Sources */,
+				A4AA586A276F778800CC25F8 /* VoucherItem.swift in Sources */,
+				0D26E8FA24B30D370013AC43 /* OnboardingDataModel.swift in Sources */,
+				A4AA587F2771CC9000CC25F8 /* ZamalekScreen2.swift in Sources */,
+				847AAD39275E089B005098F1 /* ErrorPopUp.swift in Sources */,
+				A4C136A4277DD0FD00A4F853 /* InsurancePage7.swift in Sources */,
+				A4AA58882771DC0D00CC25F8 /* ENPOScreen1.swift in Sources */,
+				A4AA588A2771E4CE00CC25F8 /* ENPOScreen2.swift in Sources */,
+				A4AA58832771D31D00CC25F8 /* ZamalekScreen3.swift in Sources */,
+				A4C1369C277D9C3700A4F853 /* InsurancePage3.swift in Sources */,
+				A4C13698277D8B7500A4F853 /* InsurancePage1.swift in Sources */,
+				0D26E8FE24B30E340013AC43 /* OnboardingViewPure.swift in Sources */,
+				0D26E8E524B30CD00013AC43 /* AppDelegate.swift in Sources */,
+				A4AA58A82774510700CC25F8 /* NewMainPopUp.swift in Sources */,
+				A4C1369A277D992100A4F853 /* InsurancePage2.swift in Sources */,
+				847AAD37275DFC68005098F1 /* PopUp.swift in Sources */,
+				A4AA588E2771FCD200CC25F8 /* ENPOScreen3.swift in Sources */,
+				A4AA587D2771C8BC00CC25F8 /* SliderItem.swift in Sources */,
+				A4AA588C2771ED2300CC25F8 /* OffersTitleItem.swift in Sources */,
+				0D26E8FC24B30DA90013AC43 /* OnboardingStepView.swift in Sources */,
+				0D26E8E724B30CD00013AC43 /* SceneDelegate.swift in Sources */,
+				A4AA58852771D79F00CC25F8 /* ZamalekScreen4.swift in Sources */,
+				0D26E8E924B30CD00013AC43 /* ContentView.swift in Sources */,
+				A4C136A2277DC84B00A4F853 /* InsurancePage6.swift in Sources */,
+				A4AA586E27706A0300CC25F8 /* LoadMoneyConfirmation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0D26E8EF24B30CD40013AC43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D26E8F024B30CD40013AC43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D26E8F324B30CD40013AC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D26E8F424B30CD40013AC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D26E8F624B30CD40013AC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Onboarding/Preview Content\"";
+				DEVELOPMENT_TEAM = JDDZ55DT74;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Onboarding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amgauge.onboarding.Onboarding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D26E8F724B30CD40013AC43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Onboarding/Preview Content\"";
+				DEVELOPMENT_TEAM = JDDZ55DT74;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Onboarding/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amgauge.onboarding.Onboarding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D26E8DC24B30CD00013AC43 /* Build configuration list for PBXProject "Onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D26E8F324B30CD40013AC43 /* Debug */,
+				0D26E8F424B30CD40013AC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D26E8F524B30CD40013AC43 /* Build configuration list for PBXNativeTarget "Onboarding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D26E8F624B30CD40013AC43 /* Debug */,
+				0D26E8F724B30CD40013AC43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D26E8D924B30CD00013AC43 /* Project object */;
+}
